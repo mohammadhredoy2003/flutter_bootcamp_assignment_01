@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:go_green/pages/details_page.dart';
+import 'package:flutter_assignment1/pages/details_page.dart';
 
 class MainPage extends StatelessWidget {
   static const name = "/main-page";

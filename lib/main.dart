@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:go_green/pages/splash/splash_page.dart';
-import 'package:go_green/pages/onboarding/welcome_page.dart';
-import 'package:go_green/pages/auth/login_page.dart';
-import 'package:go_green/pages/auth/register_page.dart';
-import 'package:go_green/pages/main_page.dart';
+import 'package:flutter_assignment1/pages/splash/splash_page.dart';
+import 'package:flutter_assignment1/pages/onboarding/welcome_page.dart';
+import 'package:flutter_assignment1/pages/auth/login_page.dart';
+import 'package:flutter_assignment1/pages/auth/register_page.dart';
+import 'package:flutter_assignment1/pages/main_page.dart';
 
 void main() {
   runApp(const MyApp());

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:go_green/core/theme/app_colors.dart';
-import 'package:go_green/pages/onboarding/welcome_page.dart';
+import 'package:flutter_assignment1/core/theme/app_colors.dart';
+import 'package:flutter_assignment1/pages/onboarding/welcome_page.dart';
 import 'package:lottie/lottie.dart';
 
 class SplashPage extends StatefulWidget {

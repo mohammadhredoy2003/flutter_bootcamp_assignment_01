@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:go_green/pages/auth/register_page.dart';
-import 'package:go_green/pages/main_page.dart';
+import 'package:flutter_assignment1/pages/auth/register_page.dart';
+import 'package:flutter_assignment1/pages/main_page.dart';
 
 class LoginPage extends StatefulWidget {
   static const name = "/login-page";
@@ -57,7 +57,7 @@ class _LoginPageState extends State<LoginPage> {
                   if (value == null || value.trim().isEmpty) {
                     return "Please enter your email";
                   }
-                  if (!RegExp(r'^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$').hasMatch(value)) {
+                  if (!RegExp(r'^[\w-.]+@([\w-]+\.)+[\w-]{2,4}$').hasMatch(value)) {
                     return "Please enter a valid email address";
                   }
                   return null;

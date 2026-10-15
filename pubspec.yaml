@@ -18,5 +18,6 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
   assets:
-    - assets/animations/lottie/splash_screen_animation.json
+    - assets/animations/lottie/

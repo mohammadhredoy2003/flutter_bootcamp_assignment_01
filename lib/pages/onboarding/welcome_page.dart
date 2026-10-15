@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:go_green/pages/auth/login_page.dart';
+import 'package:flutter_assignment1/pages/auth/login_page.dart';
 
 class WelcomePage extends StatefulWidget {
   static const name = "/welcome-page";
